@@ -1,0 +1,24 @@
+=== C2a 离线交付物预检 ===
+workdir=C:\.cogseed\userWorkSpace\我的挑战有哪些\C2a
+required=*proposal*,*benchmark*,*AI日志*,*AAR*
+本地文件数=11
+
+[OK ] *proposal*     -> proposal.md
+[OK ] *benchmark*    -> benchmark/benchmark_audit.md, benchmark/benchmark_core.py, benchmark/benchmark_report.md, benchmark/benchmark_run.py, benchmark/benchmark_selftest.md
+[OK ] *AI日志*         -> AI日志.md
+[OK ] *AAR*          -> AAR.md
+
+命中 4/4，缺失 0
+
+=== 当前文件树 ===
+  AAR.md
+  AI日志.md
+  README.md
+  benchmark/benchmark_audit.md
+  benchmark/benchmark_core.py
+  benchmark/benchmark_report.md
+  benchmark/benchmark_run.py
+  benchmark/benchmark_selftest.md
+  pipeline/presubmit.out.txt
+  pipeline/presubmit.py
+  proposal.md
